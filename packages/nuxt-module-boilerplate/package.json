@@ -1,0 +1,44 @@
+{
+  "name": "nuxt-module-boilerplate",
+  "version": "0.0.0",
+  "description": "Module boilerplate for Nuxt, powered by Demo Macro.",
+  "main": "./dist/module.cjs",
+  "types": "./dist/types.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev:prepare": "nuxt-module-build --stub",
+    "prepack": "nuxt-module-build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemoMacro/nuxt-starter-module.git"
+  },
+  "keywords": [
+    "nuxt",
+    "nuxt3",
+    "vue",
+    "vue3",
+    "module"
+  ],
+  "author": {
+    "name": "Demo Macro",
+    "email": "abc@imst.xyz",
+    "url": "https://imst.xyz/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DemoMacro/nuxt-starter-module/issues"
+  },
+  "homepage": "https://github.com/DemoMacro/nuxt-starter-module#readme",
+  "dependencies": {
+    "@nuxt/kit": "^3.0.0-rc.2"
+  }
+}
