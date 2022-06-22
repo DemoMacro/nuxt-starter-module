@@ -11,7 +11,7 @@ importers:
       '@nuxt/module-builder': 0.1.7
       eslint: 8.17.0
       lint-staged: 13.0.1
-      nuxt: 3.0.0-rc.3
+      nuxt: 3.0.0-rc.4
       prettier: 2.6.2
       typescript: 4.7.3
     devDependencies:
@@ -22,7 +22,7 @@ importers:
       '@nuxt/module-builder': 0.1.7
       eslint: 8.17.0
       lint-staged: 13.0.1
-      nuxt: 3.0.0-rc.3
+      nuxt: 3.0.0-rc.4
       prettier: 2.6.2
       typescript: 4.7.3
 
@@ -4493,8 +4493,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /nuxt/3.0.0-rc.3:
-    resolution: {integrity: sha512-Ch68sD9Npt3BN0ZphvtRurVhFqtm1sAu4VDoXghmsRoVAwpT2ZDeDWaQJ9PSmXHYwyEaXPIZ9B2EDXPKETh0cQ==}
+  /nuxt/3.0.0-rc.4:
+    resolution: {integrity: sha512-Cj23WECa9JSN1Gkhh48e9JzkigXugMZ3glH+/ftN9jmYXce2NrOYHBn7Drg1dO7VdlkkhpxtSVf81u5zRZe/gg==}
     engines: {node: ^14.16.0 || ^16.11.0 || ^17.0.0 || ^18.0.0}
     hasBin: true
     dependencies:
@@ -4530,8 +4530,8 @@ packages:
       ufo: 0.8.4
       unctx: 1.1.4
       unenv: 0.5.2
-      unimport: 0.1.9
-      unplugin: 0.6.3
+      unimport: 0.2.9
+      unplugin: 0.7.0
       untyped: 0.4.4
       vue: 3.2.37
       vue-bundle-renderer: 0.3.9
@@ -5694,6 +5694,7 @@ packages:
 
   /stable/0.1.8:
     resolution: {integrity: sha512-ji9qxRnOVfcuLDySj9qzhGSEFVobyt1kIOSkj1qZzYLzq7Tos/oUUWvotUPQLlrsidqsK6tBH89Bc9kL5zHA6w==}
+    deprecated: 'Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility'
     dev: true
 
   /standard-as-callback/2.1.0:
